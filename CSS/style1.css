@@ -1,0 +1,47 @@
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    li{ list-style: none;}
+    a{ text-decoration: none;}
+    body, div, p, li, a{ font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #666;
+        line-height: 140%;
+    }
+
+    .wrap {
+        border: #00ff22 2px solid;
+        width: 100%;
+        max-width: 1320px;
+        min-height: 1000px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex: auto;
+    } 
+
+    header {
+        border: #3700ff 2px solid;
+    }
+    
+    .nav {
+        border: #ff0000 2px solid;
+        width: 100%;
+        height: 60px;
+
+        position: relative;
+        margin-top: 80px;
+
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-btn {
+        float: left;
+    }
+
+ 
